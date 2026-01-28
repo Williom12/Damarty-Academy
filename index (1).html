@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Damarti Academy</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background: url("damartyacademy.jpg") no-repeat center center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton-comunidad {
+        width: 90%;
+        max-width: 900px;
+        height: 90px;
+        background: white;
+        border-radius: 60px;
+        display: flex;
+        align-items: center;
+        padding: 10px 25px;
+        text-decoration: none;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .boton-comunidad:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.35);
+    }
+
+    .boton-comunidad img {
+        height: 60px;
+        width: 60px;
+        object-fit: contain;
+        margin-right: 20px;
+    }
+
+    .boton-texto {
+        flex: 1;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #222;
+    }
+
+    @media (max-width: 600px) {
+        .boton-texto {
+            font-size: 1.3rem;
+        }
+
+        .boton-comunidad {
+            height: 75px;
+        }
+
+        .boton-comunidad img {
+            height: 45px;
+            width: 45px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<a href="https://chat.whatsapp.com/HipywpsjkdU04iMR3I02ig?fbclid=PAT01DUAPmNQ5leHRuA2FlbQIxMABzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaeDvPFQ2GkZBJ3CSsq2LwGFg31Eh5iJNWNWI8LinrIwU5SoYtMtoR4HlVWc3A_aem_PNj-IWhLXBofeSxLpkJz0w"
+   target="_blank" class="boton-comunidad">
+    <img src="whatsapp.png" alt="Whatsapp">
+    <div class="boton-texto">💙Unete a la comunidad aquí💛</div>
+</a>
+
+</body>
+</html>
